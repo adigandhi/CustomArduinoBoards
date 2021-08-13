@@ -1,0 +1,38 @@
+{
+  "packages": [
+    {
+      "maintainer": "Aditya Gandhi (Maintainer)", 
+      "help": {
+        "online": "https://github.com/adigandhi/CustomArduinoBoards/blob/main/README.md"
+      }, 
+      "websiteURL": "https://github.com/adigandhi/CustomArduinoBoards/blob/main/README.md", 
+      "platforms": [
+        {
+          "name": "atflash",
+          "architecture": "avr",
+          "category": "atflash",
+          "url": "https://raw.githubusercontent.com/adigandhi/CustomArduinoBoards/main/customarduinoboards-0.1.0.zip", 
+          "checksum": "SHA-256:dc4b25146e5c06e8e47cf06ce81c7db084416922000f15beb257afa77d8ea14d", 
+          "help": {
+            "online": "https://github.com/adigandhi/CustomArduinoBoards/blob/main/README.md"
+          }, 
+          "version": "0.1.0", 
+          "archiveFileName": "customarduinoboards-0.1.0.zip", 
+          "boards": [
+            {"name": "FIO (Big Optiboot)"},
+          ], 
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-ateml3.6.1-arduino8"
+            }
+          ], 
+          "size": "701"
+        }
+      ], 
+      "email": "aditya.g8@gmail.com", 
+      "name": "Aditya Gandhi"
+    }
+  ]
+}

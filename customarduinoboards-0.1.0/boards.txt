@@ -1,0 +1,23 @@
+##############################################################
+
+uno_bob.name=FIO (Big Optiboot)
+
+uno_bob.upload.tool=arduino:avrdude
+uno_bob.upload.protocol=arduino
+uno_bob.upload.maximum_size=32254
+uno_bob.upload.maximum_data_size=2048
+uno_bob.upload.speed=115200
+
+uno_bob.bootloader.tool=arduino:avrdude
+uno_bob.bootloader.low_fuses=0xFF
+uno_bob.bootloader.high_fuses=0xDE
+uno_bob.bootloader.extended_fuses=0xFD
+uno_bob.bootloader.unlock_bits=0x3F
+uno_bob.bootloader.lock_bits=0x2F
+uno_bob.bootloader.file=/opt/arduino-1.8.15/hardware/arduino/avr/bootloaders/optiboot/optiboot_atmega328.hex
+
+uno_bob.build.mcu=atmega328p
+uno_bob.build.f_cpu=16000000L
+uno_bob.build.board=AVR_FIO
+uno_bob.build.core=arduino:arduino
+uno_bob.build.variant=arduino:eightanaloginputs
