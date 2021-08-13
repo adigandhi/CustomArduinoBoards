@@ -19,7 +19,7 @@
           "version": "0.1.0", 
           "archiveFileName": "customarduinoboards-0.1.0.zip", 
           "boards": [
-            {"name": "FIO (Big Optiboot)"},
+            {"name": "FIO (Big Optiboot)"}
           ], 
           "toolsDependencies": [
             {
